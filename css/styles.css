@@ -1,0 +1,56 @@
+.snake {
+  background-color: green;
+  animation: around 4s linear infinite,
+    glow .7s alternate-reverse ease-in-out infinite;
+}
+
+@keyframes around {
+    0% { left: 0; top: 0; }
+    25% { left: 100%; top:0;  }
+    50% { left: 100%; top: 100%; }
+    75% { left: 0; top: 100%; }
+    100% { left: 0; top: 0; }
+}
+@keyframes glow {
+    0% { opacity: .2; }
+    100% { opacity: 1; }
+}
+
+#canvas {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  list-style: none;
+  height: 23px;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  flex: 1;
+  height: 100%;
+}
+
+.food {
+  background-color: red;
+  border-radius: 50%;
+}
+
+div {
+  margin: auto;
+}
+
+.obstacle {
+  background-image: url("http://forum.terasology.org/attachments/fire-gif.1127/");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}

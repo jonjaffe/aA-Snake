@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "animate.css": "^3.5.2",
     "webpack": "^2.6.1"
   },
   "devDependencies": {},

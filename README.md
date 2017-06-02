@@ -1,6 +1,6 @@
 # SNAKE
 
-![Snake: https://jonjaffe.github.io/aA-Snake/](./docs/images/Snake_live.gif)
+![Snake: https://jonjaffe.github.io/aA-Snake/](https://d2ppvlu71ri8gs.cloudfront.net/items/0i0K1c281J2w163R0342/Screen%20Recording%202017-06-02%20at%2010.13%20AM.gif)
 
 
 ## Interactive JavaScript App
